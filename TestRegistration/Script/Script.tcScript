@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="StepDefinitions" key="{B3E85BDB-4A2D-47E2-B784-2D01D8684A33}" path="StepDefinitions.py" />
+	</children>
+</Root>

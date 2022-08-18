@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6B8EBD9C-E178-407E-A13E-E06703F2727E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{F1EAB502-1C5F-415E-BDBB-3DB4BB78F34B}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{3C383163-1887-4328-B970-3F457FC7B48B}">
+								<Image FileName="1214497150" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{3CC7AFF4-E14B-4AA1-ABBC-E48948477D83}">
+										<Image FileName="1214497150" Left="486" Top="0" Right="997" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{31748ADB-2342-4286-9C0D-24DB19BD5A38}">
+												<Image FileName="1214497150" Left="488" Top="0" Right="997" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{7C119A93-C97B-4085-960D-89DA96091E28}">
+														<Image FileName="1214497150" Left="488" Top="0" Right="997" Bottom="40" />
+														<TypeInfo Item0="{46B6C285-329C-44E1-8D9E-7EE47E6003B0}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{121550E9-935F-4DC6-B20D-7B26F66F7920}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndSettings" Key="{B6BB210A-ADA9-4EB0-ABD4-5E328263FA7F}">
+								<TypeInfo Item0="{286110EE-525E-470B-84FD-EFD56EE5D0AD}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Settings" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{C544182A-D6B6-4213-8D43-D24C13B3B64C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{DA1424F9-C2D2-4DF7-BD09-6DD254B56E1F}">
+								<Image FileName="434301092" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{286110EE-525E-470B-84FD-EFD56EE5D0AD}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageBuggyCarsRating" Key="{B90A3D07-4D1D-4F78-BF99-EC9EED4BCBE7}">
+								<Image FileName="-1683613736" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://buggy.justtestit.org/register" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxLogin" Key="{59C62EF2-4FDE-4CE3-B76C-A7D80503DBFE}">
+										<Image FileName="235111204" Left="135" Top="219" Right="660" Bottom="257" />
+										<TypeInfo Item0="{A0023CF9-8C37-4919-9325-C7926E33DED4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Login&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register//form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFirstName" Key="{568A4023-DC13-43D6-B242-CFCBFBDCB1AB}">
+										<Image FileName="1367248678" Left="135" Top="273" Right="660" Bottom="343" />
+										<TypeInfo Item0="{38BF4A43-E00B-4C6B-8E13-5456D487A1C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstName" Key="{18D9BC94-2D95-4B40-A785-DD23B4EF7755}">
+										<Image FileName="186590270" Left="135" Top="305" Right="660" Bottom="343" />
+										<TypeInfo Item0="{A0023CF9-8C37-4919-9325-C7926E33DED4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;First Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;firstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register//form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastName" Key="{79DAC93B-D76F-46E8-AF90-7685E52D3F62}">
+										<Image FileName="293026540" Left="135" Top="391" Right="660" Bottom="429" />
+										<TypeInfo Item0="{A0023CF9-8C37-4919-9325-C7926E33DED4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Last Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;lastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register//form/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{0DECAB7F-A3CA-419D-A1BF-F34DF6802557}">
+										<Image FileName="401223845" Left="135" Top="477" Right="660" Bottom="515" />
+										<TypeInfo Item0="{A0023CF9-8C37-4919-9325-C7926E33DED4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register//form//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register//form/div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxConfirmPassword" Key="{3003D7B2-0B26-442A-956C-4F6C2AECDA61}">
+										<Image FileName="284556780" Left="135" Top="563" Right="660" Bottom="601" />
+										<TypeInfo Item0="{A0023CF9-8C37-4919-9325-C7926E33DED4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Confirm Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#confirmPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;confirmPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register//form/div[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRegister" Key="{48B9BD61-F600-47AA-8FC3-C71E2FF8B979}">
+										<Image FileName="1889548883" Left="135" Top="617" Right="229" Bottom="655" />
+										<TypeInfo Item0="{21C72560-867D-4E76-9C03-1830C9FC563D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Register&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRegistrationIsSuccessful" Key="{6408B106-3033-4671-ADAC-AEEB7BCA66B9}">
+										<Image FileName="1187613961" Left="135" Top="670" Right="660" Bottom="726" />
+										<TypeInfo Item0="{38BF4A43-E00B-4C6B-8E13-5456D487A1C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Registration is successful&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRegistrationIsSuccessful2" Key="{92180AB8-08D7-4160-928A-21FA730B2C24}">
+										<Image FileName="1100176777" Left="143" Top="678" Right="668" Bottom="734" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Registration is successful&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRegisterWithBuggyCarsRat" Key="{7AE0CA49-6295-470F-87F1-C833344A3C58}">
+										<Image FileName="764448106" Left="143" Top="152" Right="668" Bottom="187" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Register with Buggy Cars Rating&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogin" Key="{CF97ECC0-C7FD-449C-9565-1AF23200CA6D}">
+										<Image FileName="764448106" Left="143" Top="195" Right="668" Bottom="265" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/form/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFirstName2" Key="{6108423D-C995-48B0-A7EA-71390BD05958}">
+										<Image FileName="355646649" Left="143" Top="281" Right="668" Bottom="351" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLastName" Key="{EE26D29D-3474-41C3-B113-87E9B09DE291}">
+										<Image FileName="355646649" Left="143" Top="367" Right="668" Bottom="437" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPassword" Key="{5AFE1553-C699-4EDC-BAD8-0221263D5F47}">
+										<Image FileName="355646649" Left="143" Top="453" Right="668" Bottom="523" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelConfirmPassword" Key="{0AEF844B-6302-437F-8F77-F4BA933468B0}">
+										<Image FileName="355646649" Left="143" Top="539" Right="668" Bottom="609" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRegister2" Key="{7B75F535-06E2-4228-806C-91AA3468B4AA}">
+										<Image FileName="1531667237" Left="143" Top="625" Right="237" Bottom="663" />
+										<TypeInfo Item0="{391467E9-AF2A-4C1A-A5F7-4057B871193B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Register&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCancel" Key="{4DF69425-0658-48C5-B0E5-BA2847F03A20}">
+										<Image FileName="-1291824514" Left="241" Top="625" Right="325" Bottom="663" />
+										<TypeInfo Item0="{E8C95C87-0ABD-4B2F-9CC2-867F56BA8B52}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Cancel&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/main/my-register/div/div/form/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRegistrationIsSuccessful3" Key="{C70198CC-C177-439D-87C5-3BC03A4241E6}">
+										<Image FileName="627240736" Left="143" Top="678" Right="668" Bottom="734" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Registration is successful&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBuggyRating" Key="{B4E6B265-4EE5-49C3-8C9E-4985B2A110E7}">
+										<Image FileName="-1408310460" Left="0" Top="-263" Right="1349" Bottom="728" />
+										<TypeInfo Item0="{38BF4A43-E00B-4C6B-8E13-5456D487A1C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Buggy Rating&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUsernameexistsexceptionUser" Key="{7ADF9398-5008-46BA-91E9-62F2E52BE167}">
+										<Image FileName="-890049160" Left="143" Top="678" Right="668" Bottom="734" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;UsernameExistsException: User already exists&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{14BC9046-6FA1-404C-A8FF-2D0A2ED2DC28}">
+										<Image FileName="1638685446" Left="143" Top="578" Right="668" Bottom="658" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{57B9C2FD-A899-4975-9384-5EFA95FC160E}">
+										<Image FileName="1636710344" Left="143" Top="578" Right="668" Bottom="658" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{AFA87A09-441A-4649-9F90-00FA55718B4B}">
+										<Image FileName="362214602" Left="143" Top="578" Right="668" Bottom="658" />
+										<TypeInfo Item0="{3E37F9DB-E16C-4770-B260-14DA40A4A543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;result&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{F1EAB502-1C5F-415E-BDBB-3DB4BB78F34B}">
+			<Child Name="wndShell_TrayWnd" Owner="{3C383163-1887-4328-B970-3F457FC7B48B}">
+				<Child Name="ReBarWindow32" Owner="{3CC7AFF4-E14B-4AA1-ABBC-E48948477D83}">
+					<Child Name="MSTaskSwWClass" Owner="{31748ADB-2342-4286-9C0D-24DB19BD5A38}">
+						<Child Name="MSTaskListWClass" Owner="{7C119A93-C97B-4085-960D-89DA96091E28}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{121550E9-935F-4DC6-B20D-7B26F66F7920}">
+			<Child Name="wndSettings" Owner="{B6BB210A-ADA9-4EB0-ABD4-5E328263FA7F}" />
+		</Child>
+		<Child Name="browser" Owner="{C544182A-D6B6-4213-8D43-D24C13B3B64C}">
+			<Child Name="BrowserWindow" Owner="{DA1424F9-C2D2-4DF7-BD09-6DD254B56E1F}" />
+			<Child Name="pageBuggyCarsRating" Owner="{B90A3D07-4D1D-4F78-BF99-EC9EED4BCBE7}">
+				<Child Name="textboxLogin" Owner="{59C62EF2-4FDE-4CE3-B76C-A7D80503DBFE}" />
+				<Child Name="panelFirstName" Owner="{568A4023-DC13-43D6-B242-CFCBFBDCB1AB}" />
+				<Child Name="textboxFirstName" Owner="{18D9BC94-2D95-4B40-A785-DD23B4EF7755}" />
+				<Child Name="textboxLastName" Owner="{79DAC93B-D76F-46E8-AF90-7685E52D3F62}" />
+				<Child Name="passwordboxPassword" Owner="{0DECAB7F-A3CA-419D-A1BF-F34DF6802557}" />
+				<Child Name="passwordboxConfirmPassword" Owner="{3003D7B2-0B26-442A-956C-4F6C2AECDA61}" />
+				<Child Name="buttonRegister" Owner="{48B9BD61-F600-47AA-8FC3-C71E2FF8B979}" />
+				<Child Name="panelRegistrationIsSuccessful" Owner="{6408B106-3033-4671-ADAC-AEEB7BCA66B9}" />
+				<Child Name="panelRegistrationIsSuccessful2" Owner="{92180AB8-08D7-4160-928A-21FA730B2C24}" />
+				<Child Name="textnodeRegisterWithBuggyCarsRat" Owner="{7AE0CA49-6295-470F-87F1-C833344A3C58}" />
+				<Child Name="panelLogin" Owner="{CF97ECC0-C7FD-449C-9565-1AF23200CA6D}" />
+				<Child Name="panelFirstName2" Owner="{6108423D-C995-48B0-A7EA-71390BD05958}" />
+				<Child Name="panelLastName" Owner="{EE26D29D-3474-41C3-B113-87E9B09DE291}" />
+				<Child Name="panelPassword" Owner="{5AFE1553-C699-4EDC-BAD8-0221263D5F47}" />
+				<Child Name="panelConfirmPassword" Owner="{0AEF844B-6302-437F-8F77-F4BA933468B0}" />
+				<Child Name="buttonRegister2" Owner="{7B75F535-06E2-4228-806C-91AA3468B4AA}" />
+				<Child Name="linkCancel" Owner="{4DF69425-0658-48C5-B0E5-BA2847F03A20}" />
+				<Child Name="panelRegistrationIsSuccessful3" Owner="{C70198CC-C177-439D-87C5-3BC03A4241E6}" />
+				<Child Name="textnodeBuggyRating" Owner="{B4E6B265-4EE5-49C3-8C9E-4985B2A110E7}" />
+				<Child Name="panelUsernameexistsexceptionUser" Owner="{7ADF9398-5008-46BA-91E9-62F2E52BE167}" />
+				<Child Name="panel" Owner="{14BC9046-6FA1-404C-A8FF-2D0A2ED2DC28}" />
+				<Child Name="panel2" Owner="{57B9C2FD-A899-4975-9384-5EFA95FC160E}" />
+				<Child Name="panel3" Owner="{AFA87A09-441A-4649-9F90-00FA55718B4B}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

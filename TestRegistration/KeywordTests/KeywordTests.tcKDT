@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Form_Checks" key="{D79F5A49-307D-4DD3-A3B5-E26A3F41C51A}" path="Form_Checks.tcKDTest" />
+		<child name="Successful_Registration" key="{1E1A73C3-5642-410D-AFC2-8C33CAE8606F}" path="Successful_Registration.tcKDTest" />
+		<child name="Duplicate_Username" key="{21E0727A-ED6D-4CF0-B86D-608E780A127D}" path="Duplicate_Username.tcKDTest" />
+		<child name="Invalid_Passwords" key="{23BE0D86-33D6-45D2-A6F4-02F459A14DA1}" path="Invalid_Passwords.tcKDTest" />
+	</children>
+</Root>
