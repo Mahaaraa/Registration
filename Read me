@@ -1,7 +1,9 @@
-The automation suite is created using Test comlete.
+The automation suite is created using Test Complete.
 To run the automation suite:
 1. Get the istallation pack from https://smartbear.com/ppc/testcomplete/single-test-automation-tool/?&utm_source=aw&utm_medium=ppcg&utm_campaign=SEM_TestComplete_PR_APAC_ENG_PHR_Prospecting&utm_term=%2Btestcomplete&utm_content=549140972388&gclid=CjwKCAjwo_KXBhAaEiwA2RZ8hMdZ67uS24_3W48F4uVOvt6II25qlX3CE7eUWn7_naRXwrGZTFoSWhoCxakQAvD_BwE&gclsrc=aw.ds
 2. Install the pack
 3. Intall Git
 4. Integrate test complete with Git
-Pull the project from this repository
+5. Go to test complte project folder
+6. Pull the project from this repository
+7. Open the project in Test Complete and run it
